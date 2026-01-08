@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "total": 3,
+  "data": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "idade": 28,
+      "ativo": true,
+      "criado_em": "2025-01-02T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "idade": 34,
+      "ativo": false,
+      "criado_em": "2024-12-15T09:10:00Z"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Pereira",
+      "email": "carlos.pereira@email.com",
+      "idade": 22,
+      "ativo": true,
+      "criado_em": "2025-01-05T18:45:00Z"
+    }
+  ]
+}
