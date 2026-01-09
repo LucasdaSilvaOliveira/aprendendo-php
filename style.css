@@ -1,0 +1,98 @@
+.tabela {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .tabela thead {
+      background-color: #2c3e50;
+      color: #ffffff;
+    }
+
+    .tabela th,
+    .tabela td {
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    .tabela th {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    .tabela tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .tabela tbody tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+
+    .tabela tbody tr:hover {
+      background-color: #eef3f7;
+    }
+
+    .tabela td {
+      color: #333333;
+    }
+
+    /* Status */
+    .tabela .ativo {
+      color: #27ae60;
+      font-weight: bold;
+    }
+
+    .tabela .inativo {
+      color: #c0392b;
+      font-weight: bold;
+    }
+
+.form-simples {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form-simples label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-simples input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-simples input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.form-simples button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-simples button:hover {
+  background-color: #357abd;
+}
