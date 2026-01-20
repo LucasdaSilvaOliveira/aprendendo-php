@@ -196,6 +196,18 @@
       ?>
     </tbody>
   </table>
+
+  <?php 
+
+    require "connection.php";
+
+    // var_dump(@$data->fetch());
+
+    foreach ($data as $row) {
+      print_r($row);
+    }
+  
+  ?>
 </body>
 
 </html>
